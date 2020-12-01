@@ -16,6 +16,7 @@ import com.qa.actitime.Pages.EnterTimePage;
 import com.qa.actitime.Pages.LoginPage2;
 import com.qa.actitime.Pages.ReportsPage;
 import com.qa.actitime.Pages.TaskListPage;
+import com.qa.actitime.Pages.UsersListPage;
 
 
 public class TestBase extends DriverScript{
@@ -24,6 +25,7 @@ public class TestBase extends DriverScript{
 	EnterTimePage etpObj;
 	TaskListPage tlpObj;
 	ReportsPage rpObj;
+	UsersListPage ulpObj;
 	Random rand=new Random();
 	public ExtentReports extent;
 	public ExtentTest logger;
@@ -53,6 +55,7 @@ public class TestBase extends DriverScript{
 		etpObj=new EnterTimePage();
 		tlpObj=new TaskListPage();
 		rpObj = new ReportsPage();
+		ulpObj=new UsersListPage();
 	
 	}
 	
