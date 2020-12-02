@@ -17,6 +17,7 @@ public class LoginPage2 extends DriverScript{
 	//Naming convetion for the variables=> variable name=name+data type of it.
 	//for example if it is logo we give the variable name as "actiLogo"
 	//if it is username text box then we give the variable name as "usernameTb" where tb is the text box.
+	//Adding a comment to pull the changes into local machine(12/2/2020)
 
 	//****************************************** Page Elements/Object Repository ****************************************//
 	@FindBy(xpath="//div[@class='atLogoImg']") WebElement actiLogo;
