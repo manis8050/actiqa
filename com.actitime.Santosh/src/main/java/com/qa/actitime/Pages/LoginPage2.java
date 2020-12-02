@@ -37,7 +37,6 @@ public class LoginPage2 extends DriverScript{
 	@FindBy(xpath="//span[@id='errorSpan']") WebElement forgotPwdErrorTxt;
 	@FindBy(xpath="//a[@id='logoutLink']") WebElement logoutLnk;
 	
-	//@FindBy(xpath="//span[contains(text(),'Cannot recover login info.')]") WebElement forgotPwdErrorTxt;
 
 	
 
