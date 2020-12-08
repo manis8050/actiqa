@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <class name="com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file"/>
+    <class name="com.qa.acti.Tests.TestLoginPage"/>
       <!-- class name="com.qa.acti.Tests.TestLoginPage"/>
       <class name="com.qa.acti.Tests.TestCreateCustomer_parameter_config_file"/>
       <class name="com.qa.acti.Tests.TestEnterTimePage"/>

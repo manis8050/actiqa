@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.actitime.Base.DriverScript;
-import com.qa.actitime.Utility.Utilities;
+import com.qa.actitime.Utility.Utility;
 
 public class LoginPage2 extends DriverScript{
 	//Find element using the driver.findElement so far but in POM we will use @FindBy annotation to find the element
@@ -61,11 +61,11 @@ public class LoginPage2 extends DriverScript{
 	//Parameterization i.e. taking the values when the method is called.
 	public void loginToApplication(String username,String password)
 	{
-		Utilities.highlightElement(usernameTb);   //This method is called to highlight the element on the page.
+		Utility.highlightElement(usernameTb);   //This method is called to highlight the element on the page.
 		usernameTb.sendKeys(username);
-		Utilities.highlightElement(passwordTb);
+		Utility.highlightElement(passwordTb);
 		passwordTb.sendKeys(password);
-		Utilities.highlightElement(loginBtn);
+		Utility.highlightElement(loginBtn);
 		loginBtn.click();
 	}
 

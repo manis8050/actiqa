@@ -11,7 +11,9 @@ public class UsersListPage extends DriverScript{
 	//*********************************        PAge Elements/Object Repository **********************************************//
 	
 	@FindBy(id="container_users") WebElement usersMenuIcon;
-	@FindBy(id="logoutLink") WebElement logoutLnk;
+	//@FindBy(id="logoutLink")
+	//private WebElement logoutLnk;
+	@FindBy(xpath="//a[@id='logoutLink']") WebElement logoutLnk;
 	@FindBy(xpath="//div[contains(text(),'PTO Settings')]") WebElement ptoSettingsTab;
 	@FindBy(xpath="(//div[contains(text(),'Sick Days Settings')])[1]") WebElement sickDaysTab;
 	@FindBy(xpath="(//div[contains(text(),'Work Assignments')])[1]") WebElement workassignTab;
@@ -40,6 +42,14 @@ public class UsersListPage extends DriverScript{
 			sickDaysTab.click();
 			workassignTab.click();
 			
+		}
+
+		public WebElement getLogoutLnk() {
+			return logoutLnk;
+		}
+
+		public void setLogoutLnk(WebElement logoutLnk) {
+			this.logoutLnk = logoutLnk;
 		}
 		
 	}

@@ -74,6 +74,7 @@ public class DriverScript {
 			
 		}
 		
+		
 		String url=prop.getProperty("url");
 		driver.get(url);
 		driver.manage().window().maximize();
@@ -81,5 +82,39 @@ public class DriverScript {
 		
 		
 	}
+	
+	public static void initBrowser(String browser)
+	{
+		if (browser.equalsIgnoreCase("chrome"))
+		{
+			// System.out.println("in Chrome");
+			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver();
+			
+		}
+		else if(browser.equalsIgnoreCase("FF"))
+		{
+			System.out.println("in FF");
+			WebDriverManager.firefoxdriver().setup();
+			driver=new FirefoxDriver();
+			
+		}
+		else if(browser.equalsIgnoreCase("In IE"))
+		{
+			System.out.println("in IE");
+			WebDriverManager.iedriver().setup();
+			driver=new InternetExplorerDriver();
+			
+		}
+		
+		
+		String url=prop.getProperty("url");
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		
+	}
+	
 
 }

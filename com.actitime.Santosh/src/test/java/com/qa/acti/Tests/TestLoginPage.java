@@ -15,7 +15,7 @@ public class TestLoginPage extends TestBase {
 		logger=extent.createTest("Validate Title");
 		logger.log(Status.INFO, "Browser Launched");
 		logger.log(Status.INFO, "Navigated to the URL");
-		String expectedTitle="actiTIME - Login";
+		String expectedTitle="actiTIME - Login12345";
 		String aTitle=lpObj.verifyPageTitle();
 		System.out.println(aTitle);
 		Assert.assertEquals(aTitle, expectedTitle);

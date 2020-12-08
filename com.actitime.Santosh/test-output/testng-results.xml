@@ -2,44 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17849" started-at="2020-11-30T03:03:47Z" finished-at="2020-11-30T03:04:05Z">
+  <suite name="Default suite" duration-ms="15799" started-at="2020-12-08T03:32:39Z" finished-at="2020-12-08T03:32:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17849" started-at="2020-11-30T03:03:47Z" finished-at="2020-11-30T03:04:05Z">
-      <class name="com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file">
-        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file@6ba0ac]" name="reportSetup" is-config="true" duration-ms="185" started-at="2020-11-30T03:03:47Z" finished-at="2020-11-30T03:03:47Z">
+    <test name="Default test" duration-ms="15799" started-at="2020-12-08T03:32:39Z" finished-at="2020-12-08T03:32:55Z">
+      <class name="com.qa.acti.Tests.TestCreateCustomer_parameter_config_file">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_config_file@4f30ec]" name="reportSetup" is-config="true" duration-ms="178" started-at="2020-12-08T03:32:39Z" finished-at="2020-12-08T03:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method status="PASS" signature="preTest()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file@6ba0ac]" name="preTest" is-config="true" duration-ms="8455" started-at="2020-11-30T03:03:48Z" finished-at="2020-11-30T03:03:56Z">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_config_file@4f30ec]" name="preTest" is-config="true" duration-ms="9974" started-at="2020-12-08T03:32:40Z" finished-at="2020-12-08T03:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preTest -->
-        <test-method status="PASS" signature="testCreateNewCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file@6ba0ac]" name="testCreateNewCustomer" duration-ms="7771" started-at="2020-11-30T03:03:56Z" data-provider="logindata" finished-at="2020-11-30T03:04:04Z">
+        <test-method status="PASS" signature="testCreateNewCustomer()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_config_file@4f30ec]" name="testCreateNewCustomer" duration-ms="4662" started-at="2020-12-08T03:32:50Z" finished-at="2020-12-08T03:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewCustomer -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_config_file@4f30ec]" name="getResult" is-config="true" duration-ms="968" started-at="2020-12-08T03:32:54Z" finished-at="2020-12-08T03:32:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager]]>
+                <![CDATA[[TestResult name=testCreateNewCustomer status=SUCCESS method=TestCreateCustomer_parameter_config_file.testCreateNewCustomer()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_config_file@4f30ec] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateNewCustomer -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file@6ba0ac]" name="closeApp" is-config="true" duration-ms="895" started-at="2020-11-30T03:04:04Z" finished-at="2020-11-30T03:04:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="reportteardown()[pri:0, instance:com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file@6ba0ac]" name="reportteardown" is-config="true" duration-ms="0" started-at="2020-11-30T03:04:05Z" finished-at="2020-11-30T03:04:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportteardown -->
-      </class> <!-- com.qa.acti.Tests.TestCreateCustomer_parameter_Excel_file -->
+        </test-method> <!-- getResult -->
+      </class> <!-- com.qa.acti.Tests.TestCreateCustomer_parameter_config_file -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
